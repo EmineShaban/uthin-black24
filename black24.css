@@ -1,3 +1,137 @@
-.black24{
+.black24 {
     position: relative;
 }
+
+.black24-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.black24-right ul li img {
+    width: 25px;
+}
+
+.last-black {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.last-black img {
+    width: 20px;
+
+}
+
+.black24-right ul li {
+    color: white;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    padding: 0 4px 2px 4px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+    column-gap: 5px;
+    font-size: 13px;
+}
+
+.black24-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 90%;
+    margin: auto;
+}
+
+.arrow24{
+    width: 55px;
+    margin: 10px 0;
+    margin-right: 25px;
+}
+
+.black24-right p:first-child{
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 8px 13px;
+    font-size: 12px;
+    font-weight: 200;
+
+}
+
+.black24-right p:first-child span{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.black24-right p:nth-child(2){
+    padding: 8px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 9px;
+}
+
+.black24-text h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 5px 0; 
+}
+
+.black24-text h2 span{ 
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 1px white; /* White outline */
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+  }
+
+  .black24-discount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+  }
+
+  .black24-discount p:nth-child(1){
+    border-bottom: 5px solid black;
+    font-size: 25px;
+  }
+
+  .black24-discount p:nth-child(2){
+    font-size: 80px;
+    font-weight: 900;
+  }
+
+  .black24-discount p:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  .black24-discount p:nth-child(3) span:first-child{
+    font-size: 40px;
+    font-weight: 900;
+  }
