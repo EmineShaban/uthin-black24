@@ -31,6 +31,8 @@
     width: fit-content;
     margin: auto;
     margin-top: 10px;
+    column-gap: 5px;
+
 }
 
 .last-black img {
@@ -48,6 +50,8 @@
     margin-bottom: 9px;
     column-gap: 5px;
     font-size: 13px;
+    letter-spacing: 1px;
+
 }
 
 .black24-right {
@@ -70,13 +74,14 @@
     border: 1px solid white;
     border-radius: 40px;
     padding: 8px 13px;
-    font-size: 12px;
-    font-weight: 200;
-
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Futura Bk BT';
+     font-style: normal; 
 }
 
 .black24-right p:first-child span{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
 }
 
@@ -128,6 +133,9 @@
   .black24-discount p:nth-child(2){
     font-size: 80px;
     font-weight: 900;
+    font-family: 'Futura';
+    font-style: normal;
+
   }
 
   .black24-discount p:nth-child(3){
@@ -138,6 +146,35 @@
   }
 
   .black24-discount p:nth-child(3) span:first-child{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 900;
+    font-family: 'Futura'; 
+    font-style: normal;
+    margin-bottom: -15px;
+
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  @media only screen and (min-width: 500px) {
+
+    .black24-text { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 90%;
+    }
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .desktop{
+        display: block;
+      }
+      .mobile{
+        display: none;
+      }
   }
