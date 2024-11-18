@@ -1,8 +1,7 @@
-
 .black24 {
     position: relative;
     font-family: 'Futura Md BT';
- 
+
 }
 
 .black24-text {
@@ -63,13 +62,13 @@
     margin: auto;
 }
 
-.arrow24{
+.arrow24 {
     width: 55px;
     margin: 10px 0;
     margin-right: 25px;
 }
 
-.black24-right p:first-child{
+.black24-right-code {
     color: white;
     border: 1px solid white;
     border-radius: 40px;
@@ -77,15 +76,15 @@
     font-size: 14px;
     font-weight: 100;
     font-family: 'Futura Bk BT';
-     font-style: normal; 
+    font-style: normal;
 }
 
-.black24-right p:first-child span{
+.black24-right-code span {
     font-size: 20px;
     font-weight: 800;
 }
 
-.black24-right p:nth-child(2){
+.black24-right-shop {
     padding: 8px 25px;
     background-color: black;
     color: white;
@@ -95,25 +94,26 @@
     margin-top: 9px;
 }
 
-.black24-text h2{
+.black24-text h2 {
     text-align: center;
     background-color: black;
     color: white;
     font-size: 30px;
-    padding: 5px 0; 
+    padding: 5px 0;
     font-family: sans-serif;
 
 }
 
-.black24-text h2 span{ 
+.black24-text h2 span.sale {
     font-weight: bold;
     color: black;
-    -webkit-text-stroke: 0.5px white; /* White outline */
+    -webkit-text-stroke: 0.5px white;
+    /* White outline */
     text-transform: uppercase;
     font-family: Arial, sans-serif;
-  }
+}
 
-  .black24-discount {
+.black24-discount {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -122,59 +122,119 @@
     align-items: center;
     justify-content: center;
     column-gap: 10px;
-  }
+}
 
-  .black24-discount p:nth-child(1){
+.black24-discount p:nth-child(1) {
     border-bottom: 12px solid black;
     font-size: 20px;
     letter-spacing: -1px;
-  }
+}
 
-  .black24-discount p:nth-child(2){
+.black24-discount p:nth-child(2) {
     font-size: 80px;
     font-weight: 900;
     font-family: 'Futura';
     font-style: normal;
 
-  }
+}
 
-  .black24-discount p:nth-child(3){
+.black24-discount p:nth-child(3) {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 25px;
-  }
+}
 
-  .black24-discount p:nth-child(3) span:first-child{
+.black24-discount p:nth-child(3) span:first-child {
     font-size: 60px;
     font-weight: 900;
-    font-family: 'Futura'; 
+    font-family: 'Futura';
     font-style: normal;
     margin-bottom: -15px;
 
-  }
+}
 
-  .desktop{
+.desktop {
     display: none;
-  }
+}
 
-  @media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
 
-    .black24-text { 
+    .black24-text {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         height: 90%;
     }
-  }
+}
 
 
-  @media only screen and (min-width: 768px) {
-    .desktop{
+@media only screen and (min-width: 768px) {
+    .desktop {
         display: block;
-      }
-      .mobile{
+    }
+
+    .mobile {
         display: none;
-      }
-  }
+    }
+
+    .black24-text h2 {
+        font-size: 19px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px 0;
+    }
+
+    .black24-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .arrow24 {
+        width: 35px;
+        margin: 0;
+        margin-right: -118px;
+    }
+
+    .desktop-flex {
+        display: flex;
+    }
+    .desktop-flex {
+        display: flex; 
+        margin-left: 132px;
+    }
+    .black24-right-code{
+        background-color: white;
+        color: #ff2626;
+        font-family: 'Futura Bk BT';
+         
+    }
+
+    .black24-right-code span{
+        font-family: 'Futura Md BT';
+        font-weight: 900;
+    }
+
+    .black24-right-shop { 
+        text-align: center;
+    }
+
+  
+
+
+
+
+
+
+
+
+
+}
