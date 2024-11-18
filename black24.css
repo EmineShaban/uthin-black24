@@ -206,10 +206,12 @@
 
     .desktop-flex {
         display: flex;
+        column-gap: 15px;
     }
     .desktop-flex {
         display: flex; 
         margin-left: 132px;
+        margin-top: 15px;
     }
     .black24-right-code{
         background-color: white;
@@ -227,14 +229,37 @@
         text-align: center;
     }
 
-  
+    .black24-discount p:nth-child(1) {
+        border-bottom: 12px solid black;
+        font-size: 16px;
+    }
+    .black24-discount p:nth-child(2) {
+        font-size: 60px;
+    }
 
+    .black24-discount p:nth-child(3) span:first-child {
+        font-size: 40px;
+        margin-bottom: -11px;
 
+    }
+    .black24-discount p:nth-child(3) { 
+        font-size: 20px;
+    }
+    .black24-right-code { 
+        font-size: 12px;
+        text-align: center;
+        padding: 5px 5px;
 
+    }
 
+    .black24-right-code span {
+        font-size: 16px;
 
+    }
 
+    .black24-right-shop { 
+        font-size: 22px;
 
-
-
+    }
+ 
 }
