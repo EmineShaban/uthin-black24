@@ -1,0 +1,53 @@
+<div class="black24">
+    <img class="desktop" src="/cdn/uthin/inc/assets-general/black24/Index Banner_Uthin-08.webp" alt="">
+    <img class="mobile" src="/cdn/uthin/inc/assets-general/black24/Index Banner_Uthin-03.webp" alt="">
+    <div class="black24-text">
+        <h2>
+            <span><?php echo $LANG['black_friday_sale'] ?></span>
+            <span class="desktop"><?php echo $LANG['black_friday_sale'] ?></span>
+            <span class="desktop"><?php echo $LANG['black_friday_sale'] ?></span> 
+        </h2>
+        <div class="desktop-flex">
+            <div class="black24-discount">
+                <?php echo $LANG['up_to_65'] ?>
+            </div>
+            <div>
+                <p class="desktop black24-right-code"><?php echo $LANG['with_code'] ?> <span>black15</span></p>
+                <a href="<?php echo $LANG['link_to_order_page'] ?>&coupon=BLACK15" class="desktop black24-right-shop"><?php echo $LANG['shop_sale'] ?></a>
+            </div>
+        </div>
+        
+        <div class="black24-right">
+            <p class="mobile black24-right-code"><?php echo $LANG['with_code'] ?> <span>black15</span></p>
+            <p class="mobile black24-right-shop"><?php echo $LANG['shop_sale'] ?></p>
+            <img class="arrow24" src="/cdn/uthin/inc/assets-general/black24/Index Banner_Uthin-05.webp" alt="">
+            <ul>
+                <?php echo $LANG['bullets_black24'] ?>
+            </ul>
+        </div>
+        <p class="last-black"><img src="./Index Banner_Uthin-07.webp" alt=""><?php echo $LANG['hurry_up'] ?></p>
+    </div>
+</div>
+
+
+
+
+
+// black friday
+$LANG['black_friday_sale'] = <<<HTML
+black friday <span class="sale">sale</span>
+HTML;
+$LANG['with_code'] = "with code ";
+$LANG['shop_sale'] = "shop sale";
+$LANG['bullets_black24'] = <<<HTML
+<li><img src="/cdn/uthin/inc/assets-general/black24/Index Banner_Uthin-06.webp" alt=""> <b>eliminates </b> bloating</li>
+<li><img src="/cdn/uthin/inc/assets-general/black24/Index Banner_Uthin-06.webp" alt=""> <b>reduces </b> water retention
+</li>
+<li><img src="/cdn/uthin/inc/assets-general/black24/Index Banner_Uthin-06.webp" alt=""> <b>activates </b> slimming</li>
+HTML;
+$LANG['hurry_up'] = "<b>hurry up! </b> now is the time!";
+$LANG['up_to_65'] = <<<HTML
+<p>up to</p>
+<p>65</p>
+<p><span>%</span> <span>off</span></p>
+HTML;
