@@ -21,10 +21,12 @@
     margin-top: -10px;
 
 }
-.rating{
+
+.rating {
     display: none;
 }
-.rating-first{
+
+.rating-first {
     display: block;
 }
 
@@ -150,25 +152,32 @@
     .black24-text {
         width: 80%;
     }
+
     .black24-discount p:nth-child(2) {
         font-size: 100px;
     }
-    .black24 h2 { 
+
+    .black24 h2 {
         font-size: 45px;
     }
-    .last-black { 
+
+    .last-black {
         font-size: 18px;
     }
+
     .black24-discount p:nth-child(3) span:first-child {
         font-size: 70px;
     }
-    .black24-right-code { 
+
+    .black24-right-code {
         font-size: 16px;
     }
+
     .black24-right-code span {
         font-size: 24px;
     }
-    .black24-discount p:nth-child(1) { 
+
+    .black24-discount p:nth-child(1) {
         font-size: 22px;
     }
 }
@@ -204,16 +213,7 @@
 
 
 
-    .desktop-flex {
-        display: flex;
-        column-gap: 15px;
-    }
 
-    .desktop-flex {
-        display: flex;
-        margin-left: 132px;
-        margin-top: 15px;
-    }
 
     .black24-right-code {
         background-color: white;
@@ -221,9 +221,6 @@
 
     }
 
-    .black24-right-code span {
-        font-weight: 900;
-    }
 
 
 
@@ -232,25 +229,13 @@
         font-size: 16px;
     }
 
-    .black24-discount p:nth-child(2) {
-        font-size: 55px;
-    }
 
-    .black24-discount p:nth-child(3) span:first-child {
-        font-size: 40px;
-        margin-bottom: -11px;
-
-    }
 
     .black24-discount p:nth-child(3) {
         font-size: 20px;
     }
 
-    .black24-right-code {
-        font-size: 12px;
-        text-align: center;
-        padding: 2px 5px;
-    }
+
 
     .black24-right-code span {
         font-size: 16px;
@@ -259,9 +244,6 @@
 
 
 
-    .desktop-flex {
-        margin-top: 5px;
-    }
 
 
 
@@ -278,6 +260,67 @@
 
 
 
+
+
+
+
+    .black24 h2 {
+        font-size: 32px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 7px;
+    }
+
+    .black24-text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: max-content;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        column-gap: 15px;
+
+    }
+
+    .black24-right {
+        margin: unset;
+    }
+
+    .black24-right-code {
+        color: white;
+        background-color: black;
+        padding: 5px 12px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .black24-discount p:nth-child(2) {
+        font-weight: 700;
+    }
+
+    .desktop-flex {
+        margin: 0;
+    }
+
+    .black24-discount {
+        width: max-content;
+    }
+
+    .black24-discount p:nth-child(3) span:first-child {
+        font-size: 65px;
+
+    }
+
+    .black24-discount p:nth-child(3) {
+        margin-top: -15px;
+    }
+
 }
 
 
@@ -287,9 +330,6 @@
         margin: auto;
     }
 
-    .desktop-flex {
-        margin-top: 15px;
-    }
 
     .black24 h2 {
         font-size: 26px;
@@ -322,27 +362,41 @@
         margin: auto;
     }
 
-    .desktop-flex {
-        column-gap: 23px;
-        margin-left: 200px;
-    }
-
-
 
 
     .last-black {
         margin-top: 13px;
     }
 
+    .black24-text {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+    }
 
+    .last-black {
+        margin-top: 0;
+    }
+ 
+    .rating {
+        display: block;
+    }
 
-
+    .rating-first {
+        display: none;
+    } 
+    
+    .black24 {
+        width: 550px;
+    }
 
 
 }
 
 
 @media only screen and (min-width: 1200px) {
+
+
 
     .last-black {
         margin: 0 auto;
@@ -352,12 +406,13 @@
         margin-top: 0;
     }
 
-
-
-
-
     .desktop-flex {
         margin-bottom: 10px;
+    }
+
+    .rating-first,
+    .black24 {
+        width: 600px;
     }
 
 
@@ -379,47 +434,29 @@
         font-size: 16px;
     }
 
+    .rating-first,
+    .black24 {
+        width: 700px;
+    }
+
+
+
 
 }
 
 
 @media only screen and (min-width: 1600px) {
-    .black24 h2 {
-        font-size: 35px;
-    }
-
-    .black24-discount p:nth-child(2) {
-        font-size: 135px;
-    }
-
     .desktop-flex {
-        margin-top: 0;
         margin-bottom: 0;
     }
 
-    .last-black {
-        font-size: 20px;
-    }
-
-
-
     .black24-right-code {
-        font-size: 18px;
-        padding: 0 14px;
+        margin-bottom: 5px;
     }
 
-    .black24-right-code span {
-        font-size: 28px;
-    }
-
-
-
-    .black24-discount p:nth-child(1) {
-        font-size: 26px;
-    }
-
-    .black24-discount p:nth-child(3) span:first-child {
-        font-size: 75px;
+    .black24 h2 {
+        position: relative;
+        z-index: 1;
     }
 
 
