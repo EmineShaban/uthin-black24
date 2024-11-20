@@ -1,0 +1,406 @@
+.black24 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+
+
+}
+
+.black24-position {
+    position: relative;
+}
+
+.black24-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    margin: auto;
+    margin-top: -10px;
+
+}
+
+
+
+.last-black {
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0;
+    margin-top: 10px;
+    column-gap: 5px;
+    font-size: 14px;
+}
+
+.last-black img {
+    width: 20px;
+
+}
+
+
+
+.black24-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+
+
+.black24-right-code {
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 8px 13px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.black24-right-code span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.black24 h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    padding: 5px 0;
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.black24 h2 span.sale {
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+    text-transform: uppercase;
+}
+
+.black24-discount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.black24-discount p:nth-child(1) {
+    border-bottom: 12px solid black;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.black24-discount p:nth-child(2) {
+    font-size: 80px;
+    font-weight: 900;
+    font-family: sans-serif;
+
+}
+
+.black24-discount p:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.black24-discount p:nth-child(3) span:first-child {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: -15px;
+    font-family: system-ui;
+    font-weight: 900;
+}
+
+.black24-discount p:nth-child(3) span:last-child {
+    font-weight: 500;
+}
+
+.desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 500px) {
+
+    .last-black {
+        margin-top: 35px;
+    }
+
+    .black24-text {
+        width: 80%;
+
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .black24 h2 {
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px 0;
+    }
+
+    .black24-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+    .desktop-flex {
+        display: flex;
+        column-gap: 15px;
+    }
+
+    .desktop-flex {
+        display: flex;
+        margin-left: 132px;
+        margin-top: 15px;
+    }
+
+    .black24-right-code {
+        background-color: white;
+        color: #ff2626;
+
+    }
+
+    .black24-right-code span {
+        font-weight: 900;
+    }
+
+
+
+    .black24-discount p:nth-child(1) {
+        border-bottom: 12px solid black;
+        font-size: 16px;
+    }
+
+    .black24-discount p:nth-child(2) {
+        font-size: 55px;
+    }
+
+    .black24-discount p:nth-child(3) span:first-child {
+        font-size: 40px;
+        margin-bottom: -11px;
+
+    }
+
+    .black24-discount p:nth-child(3) {
+        font-size: 20px;
+    }
+
+    .black24-right-code {
+        font-size: 12px;
+        text-align: center;
+        padding: 2px 5px;
+    }
+
+    .black24-right-code span {
+        font-size: 16px;
+
+    }
+
+
+
+    .desktop-flex {
+        margin-top: 5px;
+    }
+
+
+
+    .last-black {
+        font-size: 12px;
+        margin-top: 3px;
+
+    }
+
+    .black24-text {
+        height: 100%;
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 994px) {
+    .black24-text {
+        height: 90%;
+        margin: auto;
+    }
+
+    .desktop-flex {
+        margin-top: 15px;
+    }
+
+    .black24 h2 {
+        font-size: 26px;
+    }
+
+    .black24-discount p:nth-child(2) {
+        font-size: 80px;
+    }
+
+    .black24-discount p:nth-child(3) span:first-child {
+        font-size: 50px;
+    }
+
+    .black24-discount p:nth-child(3) {
+        font-size: 26px;
+    }
+
+    .black24-right-code {
+        font-size: 14px;
+        padding: 0 14px;
+    }
+
+    .black24-right-code span {
+        font-size: 22px;
+    }
+
+
+
+    .desktop-flex div:nth-child(2) {
+        margin: auto;
+    }
+
+    .desktop-flex {
+        column-gap: 23px;
+        margin-left: 200px;
+    }
+
+
+
+
+    .last-black {
+        margin-top: 13px;
+    }
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .last-black {
+        margin: 0 auto;
+    }
+
+    .black24-right {
+        margin-top: 0;
+    }
+
+
+
+
+
+    .desktop-flex {
+        margin-bottom: 10px;
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .black24-discount p:nth-child(2) {
+        font-size: 100px;
+    }
+
+    .black24-discount p:nth-child(3) span:first-child {
+        font-size: 60px;
+    }
+
+    .last-black {
+        font-size: 16px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .black24 h2 {
+        font-size: 35px;
+    }
+
+    .black24-discount p:nth-child(2) {
+        font-size: 135px;
+    }
+
+    .desktop-flex {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .last-black {
+        font-size: 20px;
+    }
+
+
+
+    .black24-right-code {
+        font-size: 18px;
+        padding: 0 14px;
+    }
+
+    .black24-right-code span {
+        font-size: 28px;
+    }
+
+
+
+    .black24-discount p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .black24-discount p:nth-child(3) span:first-child {
+        font-size: 75px;
+    }
+
+
+
+
+
+
+}
