@@ -21,8 +21,12 @@
     margin-top: -10px;
 
 }
-
-
+.rating{
+    display: none;
+}
+.rating-first{
+    display: block;
+}
 
 .last-black {
     text-align: center;
@@ -145,7 +149,27 @@
 
     .black24-text {
         width: 80%;
-
+    }
+    .black24-discount p:nth-child(2) {
+        font-size: 100px;
+    }
+    .black24 h2 { 
+        font-size: 45px;
+    }
+    .last-black { 
+        font-size: 18px;
+    }
+    .black24-discount p:nth-child(3) span:first-child {
+        font-size: 70px;
+    }
+    .black24-right-code { 
+        font-size: 16px;
+    }
+    .black24-right-code span {
+        font-size: 24px;
+    }
+    .black24-discount p:nth-child(1) { 
+        font-size: 22px;
     }
 }
 
